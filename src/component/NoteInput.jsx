@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { NoteContext} from "../context/NoteAapp";
 
 const NoteInput = ({onCreateNote}) => {
+  // const {onCreateNote} = useContext(NoteContext);
   const initialState = {
     title: "",
     body: "",
@@ -11,12 +13,13 @@ const NoteInput = ({onCreateNote}) => {
 
   const onChangeNote = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    console.log(formData);
+    // console.log(formData);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
+    setFormData(initialState);
     onCreateNote(formData);
   }
 

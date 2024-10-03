@@ -8,9 +8,8 @@ const NoteItem = ({ note, OnDeleteNote, OnArchiveNote}) => {
     OnDeleteNote(id);
   }
   const handleArchiveNote = () => {
-    OnArchiveNote(id);
+    OnArchiveNote(note);
   }
-  console.log('tes' + createdAt);
   return (
     <div className="note-item">
       <div className="note-item__content">

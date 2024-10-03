@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "id": "fab8",
+      "title": "React JS",
+      "body": "React adalah libray JavaScript yang digunakan untuk membangun user interface yang interaktif berbasis component. React yang dibuat oleh Facebook dan bersifat open source, sehingga dapat digunakan oleh siapa saja secara gratis. Saat ini React dikelola oleh Meta, komunitas, dan perusahaan individu.",
+      "archived": false,
+      "createdAt": "2024-09-18T08:34:14.015Z"
+    },
+    {
+      "id": "0fc1",
+      "title": "Babel",
+      "body": "Babel merupakan tools open-source yang digunakan untuk mengubah sintaks ECMAScript 2015+ menjadi sintaks yang didukung oleh JavaScript engine versi lama. Babel sering dipakai ketika kita menggunakan sintaks terbaru termasuk sintaks JSX.",
+      "archived": false,
+      "createdAt": "2024-09-18T11:17:55.841Z"
+    },
+    {
+      "id": "ef01",
+      "title": "Functional Component",
+      "body": "Functional component merupakan React component yang dibuat menggunakan fungsi JavaScript. Agar fungsi JavaScript dapat disebut component ia harus mengembalikan React element dan dipanggil layaknya React component.",
+      "archived": false,
+      "createdAt": "2024-09-18T11:18:09.194Z"
+    },
+    {
+      "id": "dbab",
+      "title": "Modularization",
+      "body": "Dalam konteks pemrograman JavaScript, modularization merupakan teknik dalam memecah atau menggunakan kode dalam berkas JavaScript secara terpisah berdasarkan tanggung jawabnya masing-masing.",
+      "archived": true,
+      "createdAt": "2024-09-18T11:18:34.260Z"
+    },
+    {
+      "id": "ae28",
+      "title": "ReactJS",
+      "body": "React JS adalah library java script di sebut juga framwork, react js sendiri di kembangkan oleh facebook\n",
+      "archived": false,
+      "createdAt": "2024-09-30T13:56:16.365Z"
+    }
+  ]
+}

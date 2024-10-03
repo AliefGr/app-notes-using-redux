@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import NoteList from './NoteList'
+import { NoteContext } from '../context/NoteAapp';
 
-const NoteLIstBody = ({notes, keyword, OnDeleteNote, OnArchiveNote}) => {
+const NoteLIstBody = ({notes, getNotes, keyword, OnArchiveNote, OnDeleteNote}) => {
+
+  useEffect(() => {
+    getNotes();
+  }, []);
+
+    // const {notes, keyword, OnDeleteNote, OnArchiveNote} = useContext(NoteContext);
+
     const filterNote = notes.filter((note) => 
         note.title.toLowerCase().includes(keyword.toLowerCase())
     );
@@ -30,4 +38,4 @@ const NoteLIstBody = ({notes, keyword, OnDeleteNote, OnArchiveNote}) => {
   )
 }
 
-export default NoteLIstBody
+export default NoteLIstBody;

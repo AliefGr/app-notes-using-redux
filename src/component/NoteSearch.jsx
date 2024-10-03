@@ -1,7 +1,5 @@
-import React from 'react'
-
 const NoteSearch = ({onSearchNotes}) => {
-
+  
   const handleSerach = (e) => {
     const keyword = e.target.value;
     onSearchNotes(keyword);
